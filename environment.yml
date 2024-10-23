@@ -4,9 +4,19 @@ channels:
     - pytorch
     - defaults
 dependencies:
+  - jupyter
   - python>=3.6
   - pytorch>=1.6
   - torchvision
+  - matplotlib
+  - pandas
+  - requests
+  - pyyaml
+  - fastprogress>=0.1.22
+  - pillow
+  - scikit-learn
+  - scipy
+  - spacy
   - pip
   - pip:
     - -r requirements.txt
